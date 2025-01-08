@@ -39,16 +39,19 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    padding: 20px 0;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 0;
 }
 
 .profile-image {
-    height: 40%;
-    width: 100%;
-    border-radius: 30px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
     object-fit: cover;
+    object-position: center;
+    transition: all 0.3s ease;
 }
 
 /* Sağ Menü ve İçerik Stilleri */
@@ -79,6 +82,8 @@ body {
     padding: 40px;
     margin-right: 60px;
     margin-bottom: 70px;
+    position: relative;
+    min-height: 400px;
 }
 
 /* Responsive Tasarım */
@@ -116,12 +121,10 @@ body {
     }
     
     .profile-image {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        margin: 20px auto;
-        object-fit: cover;
-        object-position: center top;
+        width: 150px !important;
+        height: 150px !important;
+        border-radius: 50% !important;
+        flex-shrink: 0;
     }
     
     .content-wrapper {
@@ -350,13 +353,16 @@ body {
     display: none;
     opacity: 0;
     transform: translateY(20px);
-    transition: all 0.3s ease;
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    width: 100%;
 }
 
 .page.active {
     display: block;
     opacity: 1;
     transform: translateY(0);
+    position: relative;
 }
 
 /* Sayfa içerik stilleri */
