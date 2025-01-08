@@ -1,0 +1,10 @@
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
+
+AddType application/javascript .js
+AddType image/x-icon .ico
+
+<FilesMatch "\.(js|ico)$">
+    Header set Cache-Control "no-cache"
+</FilesMatch> 
