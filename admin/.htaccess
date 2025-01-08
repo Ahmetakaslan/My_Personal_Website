@@ -1,0 +1,6 @@
+# IP bazlı erişim kontrolü
+Order Deny,Allow
+Deny from all
+# Kendi IP adresinizi ekleyin
+Allow from 127.0.0.1
+Allow from ::1 

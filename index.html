@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Dil Seçici -->
+        <div class="language-selector">
+            <button class="lang-btn" data-lang="tr">TR</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <!-- Sol Profil Bölümü -->
+        <div class="profile-section">
+            <div class="profile-card">
+                <img src="images/profile.jpg"   alt="Profile Picture" class="profile-image">
+                <h1>Ahmet Akaslan<!-- EDIT: Your Name --></h1>
+                <p class="title"><!-- EDIT: Your Title --></p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/ahmet-akaslan-029127248/"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Ahmetakaslan?tab=repositories"><i class="fab fa-github"></i></a>
+                </div>
+                <a href="assets/cv/cv.pdf" class="download-cv" target="_blank">Download CV</a>
+                <p class="copyright">© 2024 All rights reserved.</p>
+            </div>
+        </div>
+
+        <!-- Sağ İçerik Bölümü -->
+        <div class="content-wrapper">
+            <nav class="right-nav">
+                <a href="#" class="nav-item active" data-page="home">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a>
+                <a href="#" class="nav-item" data-page="about">
+                    <i class="fas fa-user"></i>
+                    <span>About</span>
+                </a>
+                <a href="#" class="nav-item" data-page="resume">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Educational</span>
+                </a>
+                <a href="#" class="nav-item" data-page="portfolio">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Portfolio</span>
+                </a>
+                <a href="#" class="nav-item" data-page="contact">
+                    <i class="fas fa-envelope"></i>
+                    <span>Contact</span>
+                </a>
+            </nav>
+
+            <!-- Sayfa İçerikleri -->
+            <div class="pages">
+                <div id="home" class="page active">
+                    <h1>Ahmet Akaslan</h1>
+                    <p class="subtitle">Software Engineer</p>
+                    <div class="home-content">
+                        <p>Welcome to my portfolio! I'm passionate about creating innovative solutions through code.</p>
+                    </div>
+                </div>
+
+                <div id="about" class="page">
+                    <h2>About <span class="highlight"></span></h2>
+                    <div class="about-content">
+                        <p>I am a software engineer with expertise in web development and mobile applications.</p>
+                        <div class="personal-info">
+                            <div class="info-item">
+                                <span id="Age" class="label">Age:</span>
+                                <span  class="value">23</span>
+                            </div>
+                            <div class="info-item">
+                                <span id="Location" class="label">Location:</span>
+                                <span class="value">Turkey</span>
+                            </div>
+                            <div class="info-item">
+                                <span   class="label">Email:</span>
+                                <span class="value">akaslan47yazilim@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="resume" class="page">
+                    <h2>Educational <span class="highlight">Background</span></h2>
+                    <div class="resume-content">
+                        <div class="education-item">
+                            <h3>Computer Engineering</h3>
+                            <p class="school">Firat University</p>
+                            <p class="year">2020 - 2025</p>
+                        </div>
+                        <!-- Diğer eğitim bilgileri -->
+                    </div>
+                </div>
+
+                <div id="portfolio" class="page">
+                    <h2>My <span class="highlight">Projects</span></h2>
+                    <div class="portfolio-grid">
+                        <!-- Proje kartları buraya gelecek -->
+                        <div class="project-card">
+                            <h3>Project 1</h3>
+                            <p>Project description goes here</p>
+                        </div>
+                        <!-- Diğer projeler -->
+                    </div>
+                </div>
+
+                <div id="contact" class="page">
+                    <h2>Contact <span class="highlight">Me</span></h2>
+                    <div class="contact-content">
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <p>akaslan47yazilim@gmail.com</p>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>Turkey</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/translations.js"></script>
+</body>
+</html> 
