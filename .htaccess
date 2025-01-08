@@ -1,5 +1,8 @@
 <IfModule mod_headers.c>
     Header set Access-Control-Allow-Origin "*"
+    Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+    Header set Pragma "no-cache"
+    Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
 </IfModule>
 
 AddType application/javascript .js
@@ -8,3 +11,5 @@ AddType image/x-icon .ico
 <FilesMatch "\.(js|ico)$">
     Header set Cache-Control "no-cache"
 </FilesMatch> 
+
+AddDefaultCharset UTF-8 
