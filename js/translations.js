@@ -15,7 +15,7 @@ const translations = {
         // Hakkımda sayfası
         "About Me": "Hakkımda",
         "I am a software engineer with expertise in web development and mobile applications.":
-            "Web geliştirme ve mobil uygulamalar konusunda uzman bir yazılım mühendisiyim.",
+            "Web geliştirme, Mobil uygulamalar, SAP ve Yapay zekâ alanlarıyla ilgilenen bir Yazılım Mühendisiyim.",
         "Age": "Yaş",
         "Location": "Konum",
         "Email": "E-posta",
@@ -23,7 +23,7 @@ const translations = {
         
         // Eğitim sayfası
         "Educational Background": "Eğitim Geçmişi",
-        "Computer Engineering": "Bilgisayar Mühendisliği",
+        "Computer Engineering": "Yazılım Mühendisliği",
         "Firat University": "Fırat Üniversitesi",
         
         // Portfolyo sayfası
@@ -54,7 +54,7 @@ const translations = {
         // About page
         "About Me": "About Me",
         "I am a software engineer with expertise in web development and mobile applications.":
-            "I am a software engineer with expertise in web development and mobile applications.",
+            "I am a software engineer interested in web development, mobile applications, SAP, and artificial intelligence.",
         "Age": "Age",
         "Location": "Location",
         "Email": "Email",
@@ -62,7 +62,7 @@ const translations = {
         
         // Education page
         "Educational Background": "Educational Background",
-        "Computer Engineering": "Computer Engineering",
+        "Computer Engineering": "Software Engineering",
         "Firat University": "Firat University",
         
         // Portfolio page
